@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pandas Quest: Become a Data Detective</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<header class="top">
+  <button class="brand" data-act="home" aria-label="Pandas Quest home">🕵️ Pandas Quest</button>
+  <nav aria-label="Main">
+    <button class="btn ghost" data-act="home">Dashboard</button>
+    <button class="btn ghost" data-act="practice">Practice Arena</button>
+    <button class="btn ghost" data-act="ach">My Achievements</button>
+    <button class="btn ghost danger" data-act="reset">Reset progress</button>
+  </nav>
+  <div id="hud" aria-live="polite"></div>
+</header>
+<div class="banner" role="note">
+  <b>Learning simulator.</b> JavaScript imitates Pandas behavior on small sample tables. No Python code is executed here, and real Pandas has many more options than the ones taught.
+</div>
+<main id="app"></main>
+<footer class="foot">Pandas Quest runs fully in your browser. Progress is saved only on this device.</footer>
+<script src="script.js"></script>
+</body>
+</html>
